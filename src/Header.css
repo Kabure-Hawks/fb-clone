@@ -1,0 +1,81 @@
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content:space-between;
+    
+    position:sticky;
+    background-color:rgb(255, 255, 255);
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+}
+
+.header--left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--input{
+    display: flex;
+    align-items: center;
+    background-color:#eff2f5;
+    padding:10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header--left > img{
+    height:40px;
+}
+
+.header--input > input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header--midle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header--options > .MuiSvgIcon-root{
+    color:gray;
+    
+}
+.header--options:hover > .MuiSvgIcon-root{
+    color:#2e81f4;
+}
+
+.header--options--active > .MuiSvgIcon-root{
+    color:#2e81f4;
+}
+.header--options--active{
+    border-bottom: 4px solid #2e81f4;
+}
+.header--options{
+    display: flex;
+    cursor: pointer;
+    padding: 0 30px;
+    align-items: center;
+}
+.header--options:hover{
+    background-color:#eff2f5;
+    border-radius: 10px;
+    align-items:center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header--info{
+    display: flex;
+    align-items: center;
+}
+.header--info > h4{
+    margin-left: 10px;
+}
+
+.header--right{
+    display: flex;
+}
